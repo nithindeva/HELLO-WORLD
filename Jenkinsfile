@@ -6,14 +6,14 @@ pipeline {
          stage ("compile") {
              
               steps {
-                  echo 'Compiling the project..'
+                  echo 'Compiling the first project..'
              }
         }
        
           stage ('Testing') {
          
              steps {
-                 echo 'Testing the project..'
+                 echo 'Testing the first project..'
              }
         }
   
